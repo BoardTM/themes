@@ -131,6 +131,21 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
     margin-bottom: 2px;
 	margin-top: 2px;
 }
+#app-mount .footer-1fjuF6 input {
+	display: none;
+}
+.footer-1fjuF6 {
+	padding: 0px;
+}
+.body-3iLsc4 {
+	padding: 8px 8px 0px 16px;
+}
+.textarea-2r0oV8 {
+	height: 24px !important; 
+}
+#app-mount .note-3HfJZ5 {
+    padding-bottom: 8px;
+}
 
 /*Popout text colors*/
 .userPopout-3XzG_A, .date-YN6TCS, .theme-dark, .newPopoutActivityStyles, .headerNormal-1l1Znk, .headerTag-nSOkYt, .customStatus-3NamXG, .customStatus-3NamXG {
