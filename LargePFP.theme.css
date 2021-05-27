@@ -4,22 +4,20 @@
     left: 0px;
 }
 #app-mount .avatar-22FtUu {
-	border: 0px;
-	mask: none;
+	border: 0px !important;
 }
 #app-mount .avatarWrapperNormal-2tu8Ts > .wrapper-3t9DeA[style*="width: 80px;"] {
 	width: 300px !important;
 	height: 300px !important;
 }
 #app-mount .headerNormal-1l1Znk {
-	padding-top: 300px;
+	padding-top: 300px !important;
 }
 .avatarHint-1E3LMl {
 	height: 300px;
 	width: 300px;
 	top: 0px;
 	left: 0px;
-	border-radius: 0%;
 }
 #app-mount .profileBanner-33-uE1 {
 	display: none
@@ -28,8 +26,8 @@
 	padding-top: 16px;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA foreignObject {
-    -webkit-mask: none;
-    mask: none;
+    -webkit-mask: none !important;
+    mask: none !important;
 }
 .avatarHintInner-2kMTo4 {
 	box-shadow: none;
