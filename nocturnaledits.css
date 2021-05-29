@@ -150,3 +150,9 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 #app-mount .scroller-3BxosC {
   padding-right: 8px !important;
 }
+
+/*Not even a problem yet (about me)*/
+.aboutMeSection-3bipSD, .aboutMeSection-3bipSD, .aboutMeBody-1a7Pjl, .base-1x0h_U.muted-3-7c5L {
+	background-color: #0000;
+	color: #fff;
+}
