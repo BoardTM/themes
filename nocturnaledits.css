@@ -94,6 +94,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 #app-mount .activityName-1IaRLn {
 	color: #fff !important
 }
+
 /*Make Reactions Visible*/
 #app-mount .reaction-1hd86g.reactionMe-wv5HKu {
     background-color: rgba(24, 31, 38) !important;
@@ -128,8 +129,11 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 	background-color: #0000 !important;
 }
 .endBodySection-Rf4s-7 {
-	margin-bottom: 2px;
+	margin-bottom: 0px;
 	margin-top: 2px;
+}
+.textarea-2r0oV8 {
+	height: 24px !important; 
 }
 
 /*Popout text colors*/
