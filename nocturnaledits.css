@@ -1,3 +1,6 @@
+:root {
+  --NewColor: #b9bbbe;
+}
 /*Logo background*/
 #app-mount .childWrapper-anI2G9 {
 	background: var(--backgroundColor02) !important;
