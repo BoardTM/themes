@@ -119,10 +119,8 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 }
 
 /*Make popouts look nicer*/
-.protip-YaFfgO {
-	display: none;
-}
-.bodyTitle-Y0qMQz {
+
+.protip-YaFfgO, .bodyTitle-Y0qMQz, .setIdentityLink-OpBDR6 {
 	display: none;
 }
 .body-3iLsc4 {
@@ -159,3 +157,4 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 	background-color: #0000;
 	color: #fff;
 }
+
