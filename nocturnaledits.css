@@ -109,9 +109,9 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 #app-mount .profileBanner-33-uE1 {
 	display: none
 }
-#app-mount .headerTop-2y3V6H {
+#app-mount .headerTop-2cWpdB {
 	border-bottom: none;
-	background-color: rgba(255,255,255,0);
+	background-color: #0000;
 }
 #app-mount .headerNormal-1l1Znk {
 	padding-top: 60px;
@@ -136,9 +136,12 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 .textarea-2r0oV8 {
 	height: 24px !important; 
 }
+#app-mount .headerBotTag-36eaSD, #app-mount .headerBotTagWithNickname-2kgwth {
+	background-color: #7289da !important;
+}
 
 /*Popout text colors*/
-.userPopout-3XzG_A, .date-YN6TCS, .theme-dark, .newPopoutActivityStyles, .headerNormal-1l1Znk, .headerTag-nSOkYt, .customStatus-3NamXG, .customStatus-3NamXG {
+.userPopout-3XzG_A, .date-YN6TCS, .theme-dark, .newPopoutActivityStyles, .headerNormal-1l1Znk, .discrimBase-1QwWzY, .customStatus-3NamXG, .customStatus-3NamXG {
   color: #fff !important;
 }
 
