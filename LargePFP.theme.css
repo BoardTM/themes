@@ -1,11 +1,7 @@
 //META{"name":"LargeProfilePicture","description":"Original made by Cruxie#7681 and adapted by me for a new discord version","author":"Board#0001","version": "AutoUpdate"}*//{}
-.avatarPositionNormal-1CZUPk {
-	top: 0px;
-	left: 0px;
-}
-.avatarPositionPremium-1QenYe {
-	transform:translate(0px,44px);
-	left: 0px;
+.avatarPositionNormal-1CZUPk, .avatarPositionPremium-1QenYe {
+    top: 0px;
+    left: 0px;
 }
 #app-mount .avatar-22FtUu {
 	border: 0px !important;
@@ -28,15 +24,12 @@
 	display: none
 }
 .headerTop-2cWpdB {
-	padding: 16px;
+	padding-top: 16px;
 }
 .userPopout-3XzG_A .wrapper-3t9DeA foreignObject {
-	-webkit-mask: none !important;
-	mask: none !important;
+    -webkit-mask: none !important;
+    mask: none !important;
 }
 .avatarHintInner-2kMTo4 {
 	box-shadow: none;
-}
-.profileBannerPremium-35utuo {
-	transform:translate(0px,-300px);
 }
