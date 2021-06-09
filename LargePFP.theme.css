@@ -1,20 +1,20 @@
 //META{"name":"LargeProfilePicture","description":"Original made by Cruxie#7681 and adapted by me for a new discord version","author":"Board#0001","version": "AutoUpdate"}*//{}
-.avatarPositionNormal-1CZUPk, .avatarPositionPremium-1QenYe {
+.avatarPositionNormal-aZjAsn, .avatarPositionPremium-3We5Ho {
     top: 0px;
     left: 0px;
 }
-#app-mount .avatar-22FtUu {
+#app-mount .avatar-37jOim {
 	border: 0px !important;
 	background-color: #0000 !important;
 }
-#app-mount .avatarWrapperNormal-2tu8Ts > .wrapper-3t9DeA[style*="width: 80px;"] {
+#app-mount .avatarWrapperNormal-26WQIb  > .wrapper-3t9DeA[style*="width: 80px;"] {
 	width: 300px !important;
 	height: 300px !important;
 }
-#app-mount .headerNormal-1l1Znk {
+#app-mount .headerNormal-1mX3KY {
 	padding-top: 300px !important;
 }
-.avatarHint-1E3LMl {
+.avatarHint-2A3RNb {
 	height: 300px;
 	width: 300px;
 	top: 0px;
@@ -26,10 +26,10 @@
 .headerTop-2cWpdB {
 	padding-top: 16px;
 }
-.userPopout-3XzG_A .wrapper-3t9DeA foreignObject {
+.userPopout-xaxa6l .wrapper-3t9DeA foreignObject {
     -webkit-mask: none !important;
     mask: none !important;
 }
-.avatarHintInner-2kMTo4 {
+.avatarHintInner-1TvA8u {
 	box-shadow: none;
 }
