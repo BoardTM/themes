@@ -101,7 +101,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 }
 
 /*Fix Popout Profiles*/
-#app-mount .profileBanner-33-uE1 {
+.headerNormal-1mX3KY > .banner-2QYc2d {
 	display: none
 }
 #app-mount .headerTop-2cWpdB {
