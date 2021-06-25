@@ -1,3 +1,4 @@
+//META{"name":"Nocturnal Edits","description":"A simple & clean dark theme for thoses who live at night, made to be easy on the eye","author":"Spectra#7698","version":"1.0","source":"https://github.com/codedotspectra/themes","website":"https://codedotspectra.github.io/me/"}*//{}
 :root {
   --NewColor: #b9bbbe;
 }
@@ -124,9 +125,12 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 .protip-2urNh2, .bodyTitle-1ySSKn, .setIdentityLink-3lcnXW, .divider-ewBQKj {
 	display: none;
 }
+#app-mount .input-cIJ7To {
+	background-color: var(--backgroundColor02) !important;
+}
 
-#app-mount .textarea-2r0oV8 {
-	background-color: #0000 !important;
+#app-mount .note-1oo11U textarea, .aboutMeSection-1Fw5Ia {
+	background-color: var(--backgroundColor01) !important
 }
 .quickMessage-3jDbBs {
 	margin-bottom: 0px;
@@ -134,6 +138,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 }
 .textarea-2r0oV8 {
 	height: 24px !important; 
+	
 }
 #app-mount .headerBotTag-36eaSD, #app-mount .headerBotTagWithNickname-2kgwth {
 	background-color: #7289da !important;
