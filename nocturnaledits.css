@@ -115,7 +115,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 	background-image: none;
 }
 .customStatus-oN4ZZY, .aboutMeSection-1Fw5Ia {
-	background-color: #18191c;
+	background-color: var(--backgroundColor01) !important
 }
 #app-mount .activity-3v9l4T {
 	background-color: #0000;
@@ -129,7 +129,7 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 	background-color: var(--backgroundColor02) !important;
 }
 
-#app-mount .note-1oo11U textarea, .aboutMeSection-1Fw5Ia {
+#app-mount .note-1oo11U textarea {
 	background-color: var(--backgroundColor01) !important
 }
 .quickMessage-3jDbBs {
