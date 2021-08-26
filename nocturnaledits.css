@@ -165,3 +165,18 @@ div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 	background-color: #0000;
 	color: #fff;
 }
+/*Remove better HLJS*/
+.hljs::before {
+    content: "" !important; 
+}
+.hljs::after {
+    content: "";
+    padding: 0px;
+    width: 0px;
+}
+.hljs {
+    padding-left: 0px !important;
+}
+.bd-codeblock-language {
+    padding-left: 27px !important;
+}
