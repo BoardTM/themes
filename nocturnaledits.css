@@ -86,12 +86,12 @@
     height: 0px;
     background-size: cover !important;
     position: absolute;
-    padding-left: 0px !important;
+    left: 0px;
     top: 50%;
     transform: translateY(-50%);
     opacity: .8;
 }
-.side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
+.side-8zPYf6 .item-PXvHYJ {padding-left: 0px !important;}
 div[aria-label="GUILD_SETTINGS"] .side-8zPYf6 .item-PXvHYJ {padding-left: 10px;}
 
 /*Make Reactions Visible*/
