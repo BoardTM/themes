@@ -71,7 +71,8 @@
 } */
 
 /*Nocturnal V2 Buttons*/
-#app-mount .bd-button:not(.bd-button-danger), #app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6.disabled, #app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6, #app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV.disabled, #app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV, #app-mount .lookFilled-1Gx00P.colorBrand-3pXr91.disabled, #app-mount .lookFilled-1Gx00P.colorBrand-3pXr91, #app-mount .lookFilled-1Gx00P.colorGreen-29iAKY:disabled, #app-mount .lookFilled-1Gx00P.colorGreen-29iAKY {
+.lookFilled-yCfaCM.colorGrey-2iAG-B, .button-1EGGcP.buttonColor-3bP3fX, .button-1EGGcP .buttonColor-3bP3fX, .lookFilled-yCfaCM.colorBrand-I6CyqQ,
+.lookFilled-yCfaCM.colorBrandNew-2-gGsS, .lookFilled-1GseHa.select-1Ia3hD, .lookOutlined-3yKVGo.colorPrimary-2AuQVo {
     background-color: rgba(0,0,0,.5) !important;
     border: 1.5px solid var(--mainColor) !important;
     border-radius: 6px !important;
