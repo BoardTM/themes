@@ -15,7 +15,7 @@
 }
 .userPopout-2j1gM4 .headerNormal-3Zn_yu {
 	/* done */
-	padding-top: 300px !important;
+	padding-top: 300px;
 }
 .userPopout-2j1gM4 .avatarHint-k7pYop {
 	height: 300px;
@@ -28,9 +28,8 @@
 	padding-top: 16px;
 }
 .userPopout-2j1gM4 .wrapper-1VLyxH foreignObject {
-	-webkit-mask: none !important;
-	mask: none !important;
-	transform: scale(calc(300 / 260.87)) !important;
+	mask: none ;
+	transform: scale(calc(300 / 260.87));
 }
 
 .userPopout-2j1gM4 .avatarHintInner-2HUAWj {
@@ -56,5 +55,6 @@
 	.pointerEvents-9SZWKj {
 	transform: translate(12%, 12%);
 }
+
 
 /* .userPopout-2j1gM4 is on basically everything so as to not break the status changer */
