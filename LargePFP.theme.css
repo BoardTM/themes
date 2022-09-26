@@ -1,17 +1,20 @@
 //META{"name":"LargeProfilePicture","description":"Original made by Cruxie#7681 and adapted by me for a new discord version","author":"Board#0001","version": "AutoUpdate"}*//{}
-.userPopout-2j1gM4 .avatarPositionNormal-2jWoC2, .userPopout-2j1gM4 .avatarPositionPremium-1zPBq9 { /* done */
-    top: 0px;
-    left: 0px;
+.userPopout-2j1gM4 .avatarPositionNormal-2jWoC2,
+.userPopout-2j1gM4 .avatarPositionPremium-1zPBq9 {
+	/* done */
+	top: 0px;
+	left: 0px;
 }
-#app-mount .userPopout-2j1gM4 .avatar-2Vndt_ { /* done */
-	border: 0px !important;
-	background-color: #0000 !important;
-}
-#app-mount .userPopout-2j1gM4 .avatarHoverTarget-1zzfRL  > .wrapper-1VLyxH[style*="width: 80px;"] { /* #done */
+
+.userPopout-2j1gM4
+	.avatarHoverTarget-1zzfRL
+	> .wrapper-1VLyxH[style*="width: 80px;"] {
+	/* #done */
 	width: 300px !important;
 	height: 300px !important;
 }
-#app-mount .userPopout-2j1gM4 .headerNormal-3Zn_yu { /* done */
+.userPopout-2j1gM4 .headerNormal-3Zn_yu {
+	/* done */
 	padding-top: 300px !important;
 }
 .userPopout-2j1gM4 .avatarHint-k7pYop {
@@ -20,16 +23,18 @@
 	top: 0px;
 	left: 0px;
 }
-.headerTop-3GPUSF { /* done */
+.userPopout-2j1gM4 .headerTop-3GPUSF {
+	/* done */
 	padding-top: 16px;
 }
 .userPopout-2j1gM4 .wrapper-1VLyxH foreignObject {
-    -webkit-mask: none !important;
-    mask: none !important;
+	-webkit-mask: none !important;
+	mask: none !important;
 	transform: scale(calc(300 / 260.87)) !important;
 }
 
-.userPopout-2j1gM4 .avatarHintInner-2HUAWj { /* done? */
+.userPopout-2j1gM4 .avatarHintInner-2HUAWj {
+	/* done? */
 	box-shadow: none;
 }
 
@@ -46,8 +51,10 @@
 	display: none;
 }
 
-.userPopout-2j1gM4 .wrapper-1VLyxH[style*="width: 80px;"] .pointerEvents-9SZWKj {
+.userPopout-2j1gM4
+	.wrapper-1VLyxH[style*="width: 80px;"]
+	.pointerEvents-9SZWKj {
 	transform: translate(12%, 12%);
-} 
+}
 
 /* .userPopout-2j1gM4 is on basically everything so as to not break the status changer */
