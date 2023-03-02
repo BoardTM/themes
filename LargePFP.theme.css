@@ -1,60 +1,41 @@
 //META{"name":"LargeProfilePicture","description":"Original made by Cruxie#7681 and adapted by me for a new discord version","author":"Board#0001","version": "AutoUpdate"}*//{}
-.userPopout-2j1gM4 .avatarPositionNormal-2jWoC2,
-.userPopout-2j1gM4 .avatarPositionPremium-1zPBq9 {
-	/* done */
-	top: 0px;
-	left: 0px;
+.userPopoutOuter-3AVBmJ .avatarPositionNormal-V4Mjtq,
+.userPopoutOuter-3AVBmJ .avatarPositionPremiumBanner-2nq2Fy {
+	position: static;
+	order: -1;
 }
 
-.userPopout-2j1gM4
-	.avatarHoverTarget-1zzfRL
-	> .wrapper-1VLyxH[style*="width: 80px;"] {
-	/* #done */
-	width: 300px !important;
-	height: 300px !important;
-}
-.userPopout-2j1gM4 .headerNormal-3Zn_yu {
-	/* done */
-	padding-top: 300px;
-}
-.userPopout-2j1gM4 .avatarHint-k7pYop {
-	height: 300px;
-	width: 300px;
-	top: 0px;
-	left: 0px;
-}
-.userPopout-2j1gM4 .headerTop-3GPUSF {
-	/* done */
-	padding-top: 16px;
-}
-.userPopout-2j1gM4 .wrapper-1VLyxH foreignObject {
-	mask: none ;
-	transform: scale(calc(300 / 260.87));
+.userPopoutOuter-3AVBmJ .avatarHint-2g3Mcd {
+	height: 340px;
+	width: 100%;
 }
 
-.userPopout-2j1gM4 .avatarHintInner-2HUAWj {
-	/* done? */
+.userPopoutOuter-3AVBmJ .wrapper-3Un6-K {
+	width: 340px !important;
+	height: 340px !important;
+}
+
+.userPopoutOuter-3AVBmJ .avatarHintInner-3gk_Yx {
 	box-shadow: none;
 }
 
-.userPopout-2j1gM4 .wrapper-1VLyxH[style*="width: 80px;"] .svg-2azL_l {
-	width: 100%;
-	height: 100%;
-}
+.userPopoutOuter-3AVBmJ .bannerSVGWrapper-qc0szY[viewBox$="60"] {
+	display: none;
+} 
 
-.userPopout-2j1gM4 .bannerSVGWrapper-qc0szY mask {
+.userPopoutOuter-3AVBmJ .bannerSVGWrapper-qc0szY mask circle {
 	display: none;
 }
 
-.bannerSVGWrapper-qc0szY[style*="min-height: 60px;"] {
+.userPopoutOuter-3AVBmJ .avatarHoverTarget-l77PhT .wrapper-3Un6-K svg {
+	width: 115%;
+	height: 115%;
+} 
+
+.userPopoutOuter-3AVBmJ .avatarHoverTarget-l77PhT .wrapper-3Un6-K svg circle {
 	display: none;
 }
 
-.userPopout-2j1gM4
-	.wrapper-1VLyxH[style*="width: 80px;"]
-	.pointerEvents-9SZWKj {
-	transform: translate(12%, 12%);
+.userPopoutOuter-3AVBmJ .avatarHoverTarget-l77PhT foreignObject .avatarStack-3Bjmsl {
+	transform: translate(0, 0);
 }
-
-
-/* .userPopout-2j1gM4 is on basically everything so as to not break the status changer */
