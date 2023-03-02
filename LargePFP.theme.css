@@ -10,7 +10,7 @@
 	width: 100%;
 }
 
-.userPopoutOuter-3AVBmJ .wrapper-3Un6-K {
+.userPopoutOuter-3AVBmJ .wrapper-3Un6-K[style^="width: 80px"] {
 	width: 340px !important;
 	height: 340px !important;
 }
