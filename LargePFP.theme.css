@@ -1,41 +1,54 @@
 //META{"name":"LargeProfilePicture","description":"Original made by Cruxie#7681 and adapted by me for a new discord version","author":"Board#0001","version": "AutoUpdate"}*//{}
-.userPopoutOuter-3AVBmJ .avatarPositionNormal-V4Mjtq,
-.userPopoutOuter-3AVBmJ .avatarPositionPremiumBanner-2nq2Fy {
+.userPopoutOuter-1OHwPL .avatarPositionNormal-2jWoC2,
+.userPopoutOuter-1OHwPL .avatarPositionPremiumBanner-2EAbSH {
 	position: static;
 	order: -1;
 }
 
-.userPopoutOuter-3AVBmJ .avatarHint-2g3Mcd {
+.userPopoutOuter-1OHwPL .avatarHint-k7pYop {
 	height: 340px;
 	width: 100%;
 }
 
-.userPopoutOuter-3AVBmJ .wrapper-3Un6-K[style^="width: 80px"] {
+.userPopoutOuter-1OHwPL .wrapper-3Un6-K[style^="width: 80px"] {
 	width: 340px !important;
 	height: 340px !important;
 }
 
-.userPopoutOuter-3AVBmJ .avatarHintInner-3gk_Yx {
+.userPopoutOuter-1OHwPL .avatarHintInner-2HUAWj {
 	box-shadow: none;
 }
 
-.userPopoutOuter-3AVBmJ .bannerSVGWrapper-qc0szY[viewBox$="60"] {
+.userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN[viewBox$="60"] {
 	display: none;
 } 
 
-.userPopoutOuter-3AVBmJ .bannerSVGWrapper-qc0szY mask circle {
+.userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN mask circle {
 	display: none;
 }
 
-.userPopoutOuter-3AVBmJ .avatarHoverTarget-l77PhT .wrapper-3Un6-K svg {
+.userPopoutOuter-1OHwPL .avatarHoverTarget-1zzfRL .wrapper-3Un6-K svg {
 	width: 115%;
 	height: 115%;
 } 
 
-.userPopoutOuter-3AVBmJ .avatarHoverTarget-l77PhT .wrapper-3Un6-K svg circle {
+.userPopoutOuter-1OHwPL .avatarHoverTarget-1zzfRL .wrapper-3Un6-K svg circle {
 	display: none;
 }
 
-.userPopoutOuter-3AVBmJ .avatarHoverTarget-l77PhT foreignObject .avatarStack-3Bjmsl {
+.userPopoutOuter-1OHwPL .avatarHoverTarget-1zzfRL foreignObject .avatarStack-3Bjmsl {
 	transform: translate(0, 0);
 }
+
+/* Following hopefully fixes decorations */
+
+.userPopoutOuter-1OHwPL .avatarDecorationHint-3n-p6O {
+	height: 340px;
+	width: 100%;
+}
+
+.userPopoutOuter-1OHwPL .avatarDecoration-2Wb1Au,
+.userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN mask {
+	display: none;
+}
+
