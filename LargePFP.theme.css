@@ -57,3 +57,8 @@
 	display: none;
 }
 
+/* Fix online on mobile backdrop */
+[class^=userPopoutOuter_] [fill=black][style="opacity: 0.45;"] {
+  display: none;
+}
+
