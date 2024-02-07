@@ -1,60 +1,72 @@
 //META{"name":"LargeProfilePicture","description":"Original made by cruxie and adapted by me for a new discord version","author":"board.","version": "AutoUpdate"}*//{}
-.userPopoutOuter_d739b2 .avatarPositionNormal__1797c,
-.userPopoutOuter_d739b2 .avatarPositionPremiumBanner__1e83d, 
-.userPopoutOuter_d739b2 .avatarPositionPremiumNoBanner__8bf3b {
-	position: static;
-	order: -1;
+[class^="userPopoutOuter_"] [class*="avatarPositionNormal__"],
+[class^="userPopoutOuter_"] [class*="avatarPositionPremiumBanner__"],
+[class^="userPopoutOuter_"] [class*="avatarPositionPremiumNoBanner__"] {
+    position: static;
+    order: -1;
+    z-index: 1;
 }
 
-.userPopoutOuter_d739b2 .avatarHint__8e5b9 {
-	height: 340px;
-	width: 100%;
+[class^="userPopoutOuter_"] [class*="avatarHint__"] {
+    height: 340px;
+    width: 100%;
 }
 
-.userPopoutOuter_d739b2 .wrapper_edb6e0[style^="width: 80px"] {
-	width: 340px !important;
-	height: 340px !important;
+[class^="userPopoutOuter_"] [class^="wrapper_"][style^="width: 80px"] {
+    width: 340px !important;
+    height: 340px !important;
 }
 
-.userPopoutOuter_d739b2 .avatarHintInner__3d1c9 {
-	box-shadow: none;
+[class^="userPopoutOuter_"] [class^="avatarHintInner__"] {
+    box-shadow: none;
 }
 
-.userPopoutOuter_d739b2 .bannerSVGWrapper__3e7b0:not([viewBox$="120"]) {
-	display: none;
-} 
-
-.userPopoutOuter_d739b2 .bannerSVGWrapper__3e7b0 mask circle {
-	display: none;
+[class^="userPopoutOuter_"]
+    [class*="bannerSVGWrapper__"]:not([viewBox$="120"]) {
+    display: none;
 }
 
-.userPopoutOuter_d739b2 .avatarHoverTarget__3a360 .wrapper_edb6e0 svg {
-	width: 115%;
-	height: 115%;
-} 
-
-.userPopoutOuter_d739b2 .avatarHoverTarget__3a360 .wrapper_edb6e0 svg circle {
-	display: none;
+[class^="userPopoutOuter_"] [class*="bannerSVGWrapper__"] mask circle {
+    display: none;
 }
 
-.userPopoutOuter_d739b2 .avatarHoverTarget__3a360 foreignObject .avatarStack__6604a {
-	transform: translate(0, 0);
+[class^="userPopoutOuter_"]
+    [class*="avatarHoverTarget__"]
+    [class*="wrapper_"]
+    svg {
+    width: 115%;
+    height: 115%;
 }
 
-.userPopoutOuter_d739b2 .roundedBanner__9fa0a {
-	border-radius: 0;
+[class^="userPopoutOuter_"]
+    [class*="avatarHoverTarget__"]
+    [class*="wrapper_"]
+    svg
+    circle {
+    display: none;
+}
+
+[class^="userPopoutOuter_"]
+    [class*="avatarHoverTarget__"]
+    foreignObject
+    [class*="avatarStack__"] {
+    transform: translate(0, 0);
+}
+
+[class^="userPopoutOuter_"] [class*="roundedBanner__"] {
+    border-radius: 0;
 }
 
 /* Following hopefully fixes decorations */
 
-.userPopoutOuter_d739b2 .avatarDecorationHint__03e0b {
-	height: 340px;
-	width: 100%;
+[class^="userPopoutOuter_"] [class*="avatarDecorationHint__"] {
+    height: 340px;
+    width: 100%;
 }
 
-.userPopoutOuter_d739b2 .avatarDecoration_ae35e3,
-.userPopoutOuter_d739b2 .bannerSVGWrapper__3e7b0 mask {
-	display: none;
+[class^="userPopoutOuter_"] [class*="avatarDecoration_"],
+[class^="userPopoutOuter_"] [class*="bannerSVGWrapper__"] mask {
+    display: none;
 }
 
 /* Fix online on mobile backdrop */
