@@ -42,7 +42,6 @@
   margin-top: 0;
 }
 
-/* Following hopefully fixes decorations */
 
 [class^="userPopoutOuter_"] [class*="avatarDecorationHint_"] {
   height: 340px;
@@ -52,9 +51,19 @@
   left: 0;
 }
 
-[class^="userPopoutOuter_"] [class*="avatarDecoration_"],
-[class^="userPopoutOuter_"] [class*="bannerSVGWrapper_"] mask {
-  display: none;
+/* Following hopefully fixes decorations */
+
+[class^="userPopoutOuter_"] [class*="avatarDecoration_"] foreignObject {
+  transform: translate(0.51rem, 0.2rem); 
+}
+
+[class^="userPopoutOuter_"] [class*="avatarDecoration_"] {
+  display: var(--display-decoration, none);
+}
+
+/*Fix banner*/
+[class^="userPopoutOuter_"] [class*="bannerSVGWrapper_"] foreignObject {
+  mask-image: none;
 }
 
 /* Fix online on mobile backdrop */
