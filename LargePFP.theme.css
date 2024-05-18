@@ -1,76 +1,80 @@
 //META{"name":"LargeProfilePicture","description":"Original made by cruxie and adapted by me for a new discord version","author":"board.","version": "AutoUpdate"}*//{}
-[class^="userPopoutOuter_"] [class*="avatarPositionNormal__"],
-[class^="userPopoutOuter_"] [class*="avatarPositionPremiumBanner__"],
-[class^="userPopoutOuter_"] [class*="avatarPositionPremiumNoBanner__"] {
-    position: static;
-    order: -1;
-    z-index: 1;
+[class^="userPopoutOuter_"] [class*="avatarPositionNormal_"],
+[class^="userPopoutOuter_"] [class*="avatarPositionPremiumBanner_"],
+[class^="userPopoutOuter_"] [class*="avatarPositionPremiumNoBanner_"] {
+  position: static;
+  order: -1;
+  z-index: 1;
 }
 
-[class^="userPopoutOuter_"] [class*="avatarHint__"] {
-    height: 340px;
-    width: 100%;
+[class^="userPopoutOuter_"] [class*="avatarHint_"] {
+  height: 340px;
+  width: 100%;
 }
 
 [class^="userPopoutOuter_"] [class^="wrapper_"][style^="width: 80px"] {
-    width: 340px !important;
-    height: 340px !important;
+  width: 340px !important;
+  height: 340px !important;
 }
 
-[class^="userPopoutOuter_"] [class^="avatarHintInner__"] {
-    box-shadow: none;
+[class^="userPopoutOuter_"] [class^="avatarHintInner_"]{
+  box-shadow: none;
 }
 
-[class^="userPopoutOuter_"]
-    [class*="bannerSVGWrapper__"]:not([viewBox$="120"]) {
-    display: none;
+[class^="userPopoutOuter_"] [class*="bannerSVGWrapper_"]:not([viewBox$="120"]) {
+  display: none;
 }
 
-[class^="userPopoutOuter_"] [class*="bannerSVGWrapper__"] mask circle {
-    display: none;
+[class^="userPopoutOuter_"] [class*="avatarHoverTarget_"] foreignObject {
+  mask: none;
 }
 
-[class^="userPopoutOuter_"]
-    [class*="avatarHoverTarget__"]
-    [class*="wrapper_"]
-    svg {
-    width: 115%;
-    height: 115%;
+[class^="userPopoutOuter_"] [class*="avatarHoverTarget_"] [class*="wrapper_"] svg {
+  width: 115%;
+  height: 115%;
 }
 
-[class^="userPopoutOuter_"]
-    [class*="avatarHoverTarget__"]
-    [class*="wrapper_"]
-    svg
-    circle {
-    display: none;
+[class^="userPopoutOuter_"] [class*="avatarHoverTarget_"] [class*="wrapper_"] svg circle {
+  display: none;
 }
 
-[class^="userPopoutOuter_"]
-    [class*="avatarHoverTarget__"]
-    foreignObject
-    [class*="avatarStack__"] {
-    transform: translate(0, 0);
-}
-
-[class^="userPopoutOuter_"] [class*="roundedBanner__"] {
-    border-radius: 0;
+[class^="userPopoutOuter_"] [class^="userPopoutOverlayBackground_"] {
+  margin-top: 0;
 }
 
 /* Following hopefully fixes decorations */
 
-[class^="userPopoutOuter_"] [class*="avatarDecorationHint__"] {
-    height: 340px;
-    width: 100%;
+[class^="userPopoutOuter_"] [class*="avatarDecorationHint_"] {
+  height: 340px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 [class^="userPopoutOuter_"] [class*="avatarDecoration_"],
-[class^="userPopoutOuter_"] [class*="bannerSVGWrapper__"] mask {
-    display: none;
+[class^="userPopoutOuter_"] [class*="bannerSVGWrapper_"] mask {
+  display: none;
 }
 
 /* Fix online on mobile backdrop */
 [class^=userPopoutOuter_] [fill=black][style="opacity: 0.45;"] {
   display: none;
 }
+[class^=userPopoutOuter_] [fill=white][style="opacity: 0.45;"] {
+  display: none;
+}
 
+[class^="userPopoutOuter_"] [class*="avatarHoverTarget_"] foreignObject [class*="avatarStack_"] img {
+  content: var(--avatar-url-512) !important;
+  
+}
+
+/*fix for transparent theme*/
+.layerContainer_a2fcaa .roundedBanner__16aa6 {
+  border-radius: 0;
+}
+
+[class^="userPopoutOuter_"] [class*="avatarHoverTarget_"] foreignObject {
+  border-radius: calc(var(--radius-popup) - 31px) calc(var(--radius-popup) - 31px) 0 0;
+}
