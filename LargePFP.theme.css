@@ -81,7 +81,7 @@
 
 /*fix for transparent theme*/
 .layerContainer_a2fcaa .roundedBanner__16aa6 {
-  border-radius: 0;
+  border-radius: 0 !important;
 }
 
 [class^="userPopoutOuter_"] [class*="avatarHoverTarget_"] foreignObject {
